@@ -19,7 +19,9 @@ ul{
 table,tr,td{
     width: 300px;
     text-align: center;
-    border: 1px, solid;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
 .jobb{
     width: 120px;
@@ -51,7 +53,7 @@ a:link, a:visited, a:hover, a:active{
     text-decoration: none;
 }
 .l1,.l2,.l3,.l4,.l5,.l6{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(11, 207, 241);
     border-style: solid;
     border-color: blue;
     border-radius: 10px;
