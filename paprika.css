@@ -21,7 +21,8 @@ table,tr,td{
     text-align: center;
     border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
+    margin-left: 40%
 }
 .jobb{
     width: 120px;
@@ -46,7 +47,8 @@ li{
     background-color: white;
 }
 .menu{
-    flex: right;
+    display: block;
+    float: left;
 }
 a:link, a:visited, a:hover, a:active{
     color: #8B4513;
@@ -61,6 +63,11 @@ a:link, a:visited, a:hover, a:active{
 }
 .tartalom{
     padding: 20px;
-    display: flex;
-    flex: 40%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.fokeret{
+    display: grid;
+    grid-template-columns: 100%;
+    
 }
